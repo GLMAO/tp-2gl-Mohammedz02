@@ -56,9 +56,4 @@ printing.
   ISP         ✔        Interfaces are lean
   DIP         ⚠        Builder returns concrete type; direct output
 
-## Key Fixes
 
-1.  Change `CoursBuilder.build()` to return `ICours`.\
-2.  Move `getMatiere()` / `getEnseignant()` into `ICours` or remove
-    them.\
-3.  Replace `System.out.println()` with a logger.
