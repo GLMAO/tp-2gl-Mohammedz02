@@ -4,10 +4,15 @@ public class Cours implements ICours {
     private String matiere;
     private String enseignant;
     private String salle;
+    @SuppressWarnings("unused")
     private String date;
+    @SuppressWarnings("unused")
     private String heureDebut;
+    @SuppressWarnings("unused")
     private boolean estOptionnel;
+    @SuppressWarnings("unused")
     private String niveau;
+    @SuppressWarnings("unused")
     private boolean necessiteProjecteur;
 
     
